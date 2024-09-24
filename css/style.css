@@ -112,14 +112,33 @@ img {
 
 /* CARD INFO */
 
-.card-info h4 {
-  font-size: 0.7rem;
+.card-info .brand {
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-transform: capitalize;
 }
 
-.card-info h2 {
-  font-size: 1rem;
+.card-info .item-name {
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
 
-.card-info h3 {
+.price-container {
+  display: flex;
+}
+
+.card-info .price {
   font-size: 0.9rem;
+  color: red;
+}
+
+.card-info .price-old {
+  font-size: 0.9rem;
+  padding-left: 5px;
+  text-decoration: line-through;
+  color: black;
+}
+
+.card-info .price::after {
+  content: " \20AC";
 }
