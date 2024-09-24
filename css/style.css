@@ -57,17 +57,22 @@ li {
 .heaver-nav,
 .header-icons {
   max-width: 20%;
+  min-width: 20%;
 }
 
 .header-nav {
   display: flex;
-  flex: 0 0 20%;
   font-size: 0.8rem;
   font-weight: 600;
 }
 
 .header-logo {
   flex: 0 0 150px;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header-icon-item {
