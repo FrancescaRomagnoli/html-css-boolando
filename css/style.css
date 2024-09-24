@@ -59,6 +59,8 @@ li {
 .header-nav {
   display: flex;
   flex: 0 0 20%;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .header-logo {
@@ -198,4 +200,19 @@ li {
 
 .card-info .price::after {
   content: " \20AC";
+}
+
+/* FOOTER */
+
+/* debug */
+header,
+main {
+  display: none;
+}
+
+.site-footer {
+  color: white;
+  background-color: #1a1a1a;
+  /* debug */
+  min-height: 200px;
 }
