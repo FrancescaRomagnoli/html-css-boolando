@@ -70,12 +70,6 @@ li {
   flex: 0 0 150px;
 }
 
-.header-icons {
-  flex: 0 0 20%;
-  display: flex;
-  justify-content: flex-end;
-}
-
 .header-icon-item {
   padding: 0 5px;
 }
@@ -85,6 +79,10 @@ li {
   padding: 0 5px;
 }
 
+.header-icons ul {
+  display: flex;
+}
+
 /* MAIN */
 
 .products > .container {
@@ -92,7 +90,7 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   padding-top: 90px;
   padding-bottom: 40px;
 
