@@ -53,9 +53,9 @@ img {
   position: absolute;
   top: 10px;
   right: 0;
-
-  /* debug */
-  background-color: #e27396ff;
+  font-size: 2rem;
+  padding: 5px 15px;
+  background-color: white;
 }
 
 .card-discount {
@@ -90,4 +90,8 @@ img {
 
 .card:hover .card-img-alt {
   display: block;
+}
+
+.card-heart:hover {
+  color: red;
 }
