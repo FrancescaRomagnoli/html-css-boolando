@@ -204,15 +204,37 @@ li {
 
 /* FOOTER */
 
-/* debug */
-header,
-main {
-  display: none;
-}
-
 .site-footer {
   color: white;
   background-color: #1a1a1a;
-  /* debug */
-  min-height: 200px;
+  min-height: 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.footer-link-item,
+.footer-social-item {
+  display: inline-block;
+}
+
+.company-name {
+  font-size: 1rem;
+}
+
+.footer-link-item {
+  padding-right: 5px;
+  font-size: 0.7rem;
+}
+
+.socials-title {
+  font-size: 0.8rem;
+  padding: 7px 0;
+}
+
+.footer-social-item {
+  padding-right: 4px;
 }
